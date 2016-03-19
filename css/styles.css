@@ -1,33 +1,42 @@
 /*all document change BEGIN*/
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic-ext);
+
 *{
     text-decoration: none;
     margin:0;
     padding:0;
     
 }
-
 body{
+  background:white;
+}
 
+.blockstyle{/*Change annotatio, about, photos,order*/
+  display:block;
+  width:100%;
+  margin-bottom:30px;
 }
 /*all document change END*/
 /*header code BEGIN*/
 header{
   display: block;
-	height:100px;
+	height:90px;
   width:100%;
   margin: 0px auto 5px;
-  background-color:#FFE4CD;
+  background-color:white;
   position:fixed;
+  opacity:1;
 }
 
 nav{
-   margin-top:10px;
-   /*margin-right:auto;
-   margin-left: auto;*/
-   padding:0;
-   list-style-type: none;
-   /*width: auto;*/
-   text-align: center;
+  margin-top:10px;
+  /*margin-right:auto;
+  margin-left: auto;*/
+  padding:0;
+  list-style-type: none;
+  /*width: auto;*/
+  text-align: center;
 }
 
 nav li{
@@ -35,54 +44,58 @@ nav li{
 }
 
 nav li a{
-   width: 20%;
-   height: 7%;
-   padding: 9px 5px;
-   text-decoration: none;
-   font-weight: bold;
-   margin:10px 0;
-   display: inline-block;
-   border: 2px solid #616161;
-   color:red;
-   /*position: relative;*/
+  display: inline-block;
+  width: 20%;
+  height: 7%;
+  padding: 9px 5px;
+  margin:10px 0;
+  border: 2px solid #616161;
+  /*a font*/
+  font-family: 'Roboto Slab', serif;
+  font-size:110%;
+  text-decoration: none;
+  font-weight: 500;
+  color:#01010B;
+  opacity:1;
+}
+
+nav li a:hover{
+ /* color:#d23a23;*/
+  color:#d34;
 }
 
 #begin{
-  width:30px;
-  height: 30px;
+  /*width:40px;
+  height: 40px;*/
   display: block;
-  margin-top:30px;
+  margin-top:14px;
   margin-left:20px;
-  background-color:#FFE433;
   float:left;
-
+  /*M font*/
+  font-family:Pacifico;
+  font-size:200%;
+  color:#d34;
 }
 /*header code END*/
-
-.blockstyle{/*Change annotatio, about, photos,order*/
-  display:block;
-  width:100%;
-  margin-bottom:30px;
-}
 /*annotation code BEGIN*/
 #annotation{  
   height: 350px; 
-  background: #d34;
+  background: #FF5D50;
   margin-top:0px;
   padding-top:130px;
   /*position: fixed;*/
 }
 
 .virginity{
-  font-family:Arial;
-  font-size:200%;
+  font-family:Pacifico;
+  font-size:400%;
   font-weight:400;
   font-style: oblique ;
   text-align:center;
 }
 
 .annons{
- font-family:Tahoma;
+  font-family: 'Roboto Slab', serif;
   font-size:150%;
   font-weight:250;
   text-align:center;
@@ -91,14 +104,17 @@ nav li a{
 /*annotation code END*/
 /*about code BEGIN*/
 #about{
-  height:550px;
-  background: #ade;
-  padding-top:30px;
+  height:580px;
+  background: #FF9A6B;
+  /*background: #F23C48;*/
   /*outline:3px solid #d12;*/
 }
 #about p{
-  font-family:Tahoma;
-  font-size:130%;
+  margin-top:40px;
+  margin-left:35px;
+  margin-right:35px;
+  font-family: 'Roboto Slab', serif;
+  font-size:120%;
   font-weight:250;
   text-align:center;
 }
@@ -106,13 +122,13 @@ nav li a{
 /*photos*/
 #photos{
   height:550px;
-  background: #e111cc;  
+  background: #FF9A6B;
 }
 /*photos code END*/
 /*order code BEGIN*/
 #order{
   height:550px;
-  background: #a001ac;
+  background: #FF9A6B;
 }
 
 #buy{
