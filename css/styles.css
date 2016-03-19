@@ -1,3 +1,4 @@
+/*all document change BEGIN*/
 *{
     text-decoration: none;
     margin:0;
@@ -6,10 +7,10 @@
 }
 
 body{
-   /*background-color:#FFE4CD;
-   color:;*/
-}
 
+}
+/*all document change END*/
+/*header code BEGIN*/
 header{
   display: block;
 	height:100px;
@@ -42,6 +43,7 @@ nav li a{
    margin:10px 0;
    display: inline-block;
    border: 2px solid #616161;
+   color:red;
    /*position: relative;*/
 }
 
@@ -55,87 +57,20 @@ nav li a{
   float:left;
 
 }
+/*header code END*/
 
-#annotation, #about, #photos, #order{
+.blockstyle{/*Change annotatio, about, photos,order*/
   display:block;
   width:100%;
   margin-bottom:30px;
 }
-
+/*annotation code BEGIN*/
 #annotation{  
   height: 350px; 
   background: #d34;
   margin-top:0px;
   padding-top:130px;
   /*position: fixed;*/
-}
-
-#about{
-  height:550px;
-  background: #ade;
-  /*outline:3px solid #d12;*/
-}
-
-#photos{
-  height:550px;
-  background: #e111cc;  
-}
-
-#order{
-  height:550px;
-  background: #a001ac;
-}
-
-footer{
-  width: 100%;
-  height:150px;
-  background: #3d3d40;
-  
-}
-
-footer .social a img{
-  width: 60px;
-  margin:0px 3px;
- /* height: 20%;*/
-}
-
-.social{
-  margin:0% auto;
-  display:block;
-  height:63px;
-  width:280px;
-}
-
-.gitprofile{
-  margin-bottom:0px;
-  margin-left:auto;
-  margin-right:auto;
-  /*display:block;*/
-  height:70px;
-  width:120px;
-
-}
-
-hr {
-    color: #ff8; 
-    background-color:#555; 
-    border:0px none;
-    height:2px; 
-    clear:both; 
-}
-
-#buy{
-  height: 80px;
-  width: 140px;
-
-}
-
-.gitprofile a{
-  font-family:Tahoma;
-  font-size:150%;
-  font-weight:bold;
-  text-align:center;
-  color:green;
 }
 
 .virginity{
@@ -153,10 +88,94 @@ hr {
   text-align:center;
 }
 
+/*annotation code END*/
+/*about code BEGIN*/
+#about{
+  height:550px;
+  background: #ade;
+  padding-top:30px;
+  /*outline:3px solid #d12;*/
+}
 #about p{
   font-family:Tahoma;
   font-size:130%;
   font-weight:250;
   text-align:center;
 }
+/*about code END*/
+/*photos*/
+#photos{
+  height:550px;
+  background: #e111cc;  
+}
+/*photos code END*/
+/*order code BEGIN*/
+#order{
+  height:550px;
+  background: #a001ac;
+}
+
+#buy{
+  height: 80px;
+  width: 140px;
+}
+/*order code BEGIN*/
+/*footer code BEGIN*/
+footer{
+  width: 100%;
+  height:150px;
+  padding-top:7px;
+  background: #3d3d40;
+  
+}
+
+.social{
+  margin:0 auto;
+  display: block;
+  height:60px;
+  width:220px;
+  
+}
+
+footer .social a img{
+  width: 60px;
+  height: 60px;
+  position:relative;
+}
+
+.soc{
+  display: block;
+  width: 60px;
+  float:left;/*It is for fb and gp, vk has own float*/
+  position:relative;
+}
+
+#gp{
+  margin-left:20px;
+}
+#vk{
+  float:right;
+}
+
+#copyright{
+  color:white;
+  text-align:center;
+}
+.gitprofile{
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.gitprofile a{
+  font-family:Tahoma;
+  font-size:150%;
+  font-weight:bold;
+  color:green;
+}
+
+/*footer code END*/
+
+
 
