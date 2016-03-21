@@ -9,7 +9,7 @@
     
 }
 body{
-  background:white;
+  background:#ffffd1;
 }
 
 .blockstyle{/*Change annotatio, about, photos,order*/
@@ -17,11 +17,17 @@ body{
   width:100%;
   margin-bottom:30px;
 }
+
+.label_style{
+  font-family:Pacifico;
+  font-size:300%;
+  text-align:center;
+}
 /*all document change END*/
 /*header code BEGIN*/
 header{
   display: block;
-	height:90px;
+	height:70px;
   width:100%;
   margin: 0px auto 5px;
   background-color:white;
@@ -30,7 +36,7 @@ header{
 }
 
 nav{
-  margin-top:10px;
+  margin-top:6px;
   /*margin-right:auto;
   margin-left: auto;*/
   padding:0;
@@ -104,13 +110,15 @@ nav li a:hover{
 /*annotation code END*/
 /*about code BEGIN*/
 #about{
-  height:580px;
+  /*height:580px;*/
   background: #FF9A6B;
+  padding-top:20px;
+  padding-bottom:25px;
   /*background: #F23C48;*/
   /*outline:3px solid #d12;*/
 }
 #about p{
-  margin-top:40px;
+  margin-top:20px;
   margin-left:35px;
   margin-right:35px;
   font-family: 'Roboto Slab', serif;
@@ -118,6 +126,15 @@ nav li a:hover{
   font-weight:250;
   text-align:center;
 }
+
+#about .label_style{
+  margin-top:25px;
+}
+#I{
+  display:block;
+  margin:15px auto;
+}
+
 /*about code END*/
 /*photos*/
 #photos{
@@ -176,6 +193,9 @@ footer .social a img{
 #copyright{
   color:white;
   text-align:center;
+  font-size:100%;
+  font-family:'Roboto Slab';
+
 }
 .gitprofile{
   margin-bottom:0;
