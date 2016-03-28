@@ -1,6 +1,9 @@
 /*all document change BEGIN*/
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,cyrillic-ext);
+@font-face {
+  font-family: Pacifico; /* Name of font */
+  src: url(../fonts/Pacifico.ttf); /* including Pacifico Font */
+}
 
 *{
     text-decoration: none;
