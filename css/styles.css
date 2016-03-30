@@ -9,7 +9,6 @@
     text-decoration: none;
     margin:0;
     padding:0;
-    
 }
 body{
   background:#ffffd1;
@@ -44,7 +43,6 @@ nav{
   margin-left: auto;*/
   padding:0;
   list-style-type: none;
-  /*width: auto;*/
   text-align: center;
 }
 
@@ -71,6 +69,7 @@ nav li a{
 nav li a:hover{
  /* color:#d23a23;*/
   color:#d34;
+  background: #FFC2A5;
 }
 
 #begin{
@@ -147,13 +146,61 @@ nav li a:hover{
 /*photos code END*/
 /*order code BEGIN*/
 #order{
-  height:550px;
+  height:650px;
   background: #FF9A6B;
 }
 
+/*button code BEGIN*/
 #buy{
-  height: 80px;
-  width: 140px;
+  display: inline-block;
+  height: 90px;
+  width: 180px;
+  margin-top:30px;
+  margin-right:40px;
+  background-color:white;
+  border-bottom:4px solid #FF5D50;
+  float:right;
+  /*Font*/
+  font-family:Pacifico;
+  font-size:130%;
+  text-align:center;
+  line-height: 90px;
+
+}
+
+#order a:hover{
+  color:red;
+
+}
+/*button code END*/
+#selltext{
+  font-family:'Roboto Slab';
+  font-size:120%;
+  font-weight:250;
+  text-align:center;
+
+}
+
+#my_photo{
+  width:500px;
+  height:250px;
+  margin-top:25px;
+  margin-left:40px;
+  background: #FF5D50;
+  /*float:left;*/
+}
+
+.reasons{
+  width:150px;
+  height:130px;
+  margin-top:25px;
+  margin-left:60px;
+  background: #FF5D50;
+
+}
+
+#advance1{
+  margin-left:60px;
 }
 /*order code BEGIN*/
 /*footer code BEGIN*/
@@ -169,8 +216,7 @@ footer{
   margin:0 auto;
   display: block;
   height:60px;
-  width:220px;
-  
+  width:220px; 
 }
 
 footer .social a img{
@@ -215,6 +261,3 @@ footer .social a img{
 }
 
 /*footer code END*/
-
-
-
