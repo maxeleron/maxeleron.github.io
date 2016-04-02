@@ -25,6 +25,11 @@ body{
   font-size:300%;
   text-align:center;
 }
+
+.wrapper{
+  width:80%;
+  margin:0px auto;
+}
 /*all document change END*/
 /*header code BEGIN*/
 header{
@@ -115,7 +120,7 @@ nav li a:hover{
   /*height:580px;*/
   background: #FF9A6B;
   padding-top:20px;
-  padding-bottom:25px;
+  padding-bottom:30px;
   /*background: #F23C48;*/
   /*outline:3px solid #d12;*/
 }
@@ -146,39 +151,9 @@ nav li a:hover{
 /*photos code END*/
 /*order code BEGIN*/
 #order{
-  height:650px;
+  /*height:650px;*/
   background: #FF9A6B;
-}
-
-/*button code BEGIN*/
-#buy{
-  display: inline-block;
-  height: 90px;
-  width: 180px;
-  margin-top:30px;
-  margin-right:40px;
-  background-color:white;
-  border-bottom:4px solid #FF5D50;
-  float:right;
-  /*Font*/
-  font-family:Pacifico;
-  font-size:130%;
-  text-align:center;
-  line-height: 90px;
-
-}
-
-#order a:hover{
-  color:red;
-
-}
-/*button code END*/
-#selltext{
-  font-family:'Roboto Slab';
-  font-size:120%;
-  font-weight:250;
-  text-align:center;
-
+  padding-bottom:30px;
 }
 
 #my_photo{
@@ -190,18 +165,36 @@ nav li a:hover{
   /*float:left;*/
 }
 
-.reasons{
-  width:150px;
-  height:130px;
-  margin-top:25px;
-  margin-left:60px;
-  background: #FF5D50;
+#selltext{
+  font-family:'Roboto Slab';
+  font-size:120%;
+  font-weight:250;
+  text-align:center;
+  clear:both;
+}
+
+/*button code BEGIN*/
+#buy{
+  display: block;
+  height: 90px;
+  width: 280px;
+  margin-top:40px auto;
+  background-color:white;
+  border-bottom:4px solid #FF5D50;
+  /*Font*/
+  font-family:Pacifico;
+  font-size:130%;
+  text-align:center;
+  line-height: 90px;
 
 }
 
-#advance1{
-  margin-left:60px;
+#buy:hover{
+  color:red;
 }
+/*button code END*/
+
+
 /*order code BEGIN*/
 /*footer code BEGIN*/
 footer{
