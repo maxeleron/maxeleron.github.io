@@ -15,14 +15,17 @@ body{
 }
 
 .blockstyle{/*Change annotatio, about, photos,order*/
-  display:block;
+  display: block;
   width:100%;
   margin-bottom:30px;
+  padding-top:1px;
 }
 
 .label_style{
   font-family:Pacifico;
   font-size:300%;
+  margin-top:20px;
+  margin-bottom:15px;
   text-align:center;
 }
 
@@ -74,7 +77,8 @@ nav li a{
 nav li a:hover{
  /* color:#d23a23;*/
   color:#d34;
-  background: #FFC2A5;
+  /*background: #FFC2A5;*/
+  background-color: #FEC8FF;
 }
 
 #begin{
@@ -88,6 +92,7 @@ nav li a:hover{
   font-family:Pacifico;
   font-size:200%;
   color:#d34;
+  line-height:;
 }
 /*header code END*/
 /*annotation code BEGIN*/
@@ -134,9 +139,9 @@ nav li a:hover{
   text-align:center;
 }
 
-#about .label_style{
+/*#about .label_style{
   margin-top:25px;
-}
+}*/
 #I{
   display:block;
   margin:15px auto;
@@ -157,10 +162,10 @@ nav li a:hover{
 }
 
 #my_photo{
+  display: block;
   width:500px;
   height:250px;
-  margin-top:25px;
-  margin-left:40px;
+  margin :25px auto;
   background: #FF5D50;
   /*float:left;*/
 }
@@ -178,7 +183,7 @@ nav li a:hover{
   display: block;
   height: 90px;
   width: 280px;
-  margin-top:40px auto;
+  margin:40px auto;
   background-color:white;
   border-bottom:4px solid #FF5D50;
   /*Font*/
@@ -191,6 +196,13 @@ nav li a:hover{
 
 #buy:hover{
   color:red;
+  /*background-color: #FEC8FF;*/
+  background: #FFC07D;
+}
+
+#buy:active{
+  color: #ffffd1;
+  background-color: #d23a23;
 }
 /*button code END*/
 
